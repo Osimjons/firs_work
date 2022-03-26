@@ -78,6 +78,7 @@
 .photo {
   margin-bottom: 104px;
   background-color: #000;
+  width: 100%;
 }
 
 /* About */
@@ -109,7 +110,7 @@
 }
 /* section-skills*/
 .skills {
-  width: 936px;
+  max-width: 936px;
   margin: auto;
   margin-bottom: 106px;
 }
@@ -134,14 +135,16 @@
 }
 .skill-items {
   display: flex;
-  justify-content: space-between;
+  justify-content:center ;
   align-items: center;
+  flex-wrap: wrap;
 }
 .skill-items-1 {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: space-evenly;
+
   width: 167px;
   height: 206px;
 }
@@ -179,6 +182,7 @@
 }
 .portfolio-img {
   margin-bottom: 45px;
+  width: 100%;
 }
 .portfilio-subtitle {
   display: block;
@@ -233,14 +237,15 @@
 }
 .like {
   align-items: center;
-  display: flex;
-  flex-direction: column;
+  /* display: flex; */
+  /* flex-direction: column; */
 }
 .socials {
   display: flex;
   justify-content: space-between;
   width: 342px;
   margin-bottom: 45px;
+  margin: auto;
 }
 
 .social-text {
@@ -251,6 +256,6 @@
   font-size: 14px;
   line-height: 17px;
   text-align: center;
-
+  margin-top: 45px;
   color: #828282;
 }
